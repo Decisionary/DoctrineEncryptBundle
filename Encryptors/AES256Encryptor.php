@@ -40,7 +40,7 @@ class AES256Encryptor implements EncryptorInterface {
             $data,
             MCRYPT_MODE_ECB,
             $this->initializationVector
-        )));
+        ))). "<ENC>";
     }
 
     /**
